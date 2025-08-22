@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "Data Science Intro.html",
+    "href": "Data Science Intro.html",
+    "title": "Data Science Intro",
+    "section": "",
+    "text": "I think that being a data scientist can mean several things. Chapter 1 of the Practitioner’s Guide to Data Science broke this question down very well in my opinion. I think being a data scientist can mean one or more of the following:\n\nEngineering\n\nSometimes a data scientist might focus on the processes and functions that make working with data possible.\n\nAnalysis\n\nOther data scientists will focus on turning the raw data into useful information for another audience through exploratory analysis.\n\nModeling\n\nFinally, some data scientists focus on modeling data to make future predictions or find patterns in the data that are not immediately apparent.\n\n\n\n\n\nThe biggest difference between a data scientist and a statistician, in my opinion, is that data scientists are tasked with making raw data usable while statisticians seem to begin their analysis and modeling with data that is already in a usable format. On the other hand, I think data scientists and statisticians are similar because they both have the goal of pulling meaningful insights out of their data.\n\n\n\nWhen comparing data scientists and statisticians, I view myself more in the category of being a data scientist. Even though it is not everyone’s favorite, I enjoying wrangling data to make it usable. It may take up a lot of time, but once it is cleaned, it feels very fulfilling to be able to successfully create summary statistics and visuals."
+  },
+  {
+    "objectID": "Data Science Intro.html#questions-about-data-scientists",
+    "href": "Data Science Intro.html#questions-about-data-scientists",
+    "title": "Data Science Intro",
+    "section": "",
+    "text": "I think that being a data scientist can mean several things. Chapter 1 of the Practitioner’s Guide to Data Science broke this question down very well in my opinion. I think being a data scientist can mean one or more of the following:\n\nEngineering\n\nSometimes a data scientist might focus on the processes and functions that make working with data possible.\n\nAnalysis\n\nOther data scientists will focus on turning the raw data into useful information for another audience through exploratory analysis.\n\nModeling\n\nFinally, some data scientists focus on modeling data to make future predictions or find patterns in the data that are not immediately apparent.\n\n\n\n\n\nThe biggest difference between a data scientist and a statistician, in my opinion, is that data scientists are tasked with making raw data usable while statisticians seem to begin their analysis and modeling with data that is already in a usable format. On the other hand, I think data scientists and statisticians are similar because they both have the goal of pulling meaningful insights out of their data.\n\n\n\nWhen comparing data scientists and statisticians, I view myself more in the category of being a data scientist. Even though it is not everyone’s favorite, I enjoying wrangling data to make it usable. It may take up a lot of time, but once it is cleaned, it feels very fulfilling to be able to successfully create summary statistics and visuals."
+  },
+  {
+    "objectID": "Data Science Intro.html#iris-and-petal-width-r-code",
+    "href": "Data Science Intro.html#iris-and-petal-width-r-code",
+    "title": "Data Science Intro",
+    "section": "Iris and Petal Width (R Code)",
+    "text": "Iris and Petal Width (R Code)\nWe will first create an object, “y”, that represents the density of Petal Width in the Iris data set.\n\ny &lt;- density(iris$Petal.Width)\n\nThen, we will determine the class, type, and structure of the object “y”.\n\nclass(y)\n\n[1] \"density\"\n\ntypeof(y)\n\n[1] \"list\"\n\nstr(y)\n\nList of 8\n $ x         : num [1:512] -0.656 -0.648 -0.64 -0.633 -0.625 ...\n $ y         : num [1:512] 0.00161 0.00178 0.00197 0.00217 0.00239 ...\n $ bw        : num 0.252\n $ n         : int 150\n $ old.coords: logi FALSE\n $ call      : language density.default(x = iris$Petal.Width)\n $ data.name : chr \"iris$Petal.Width\"\n $ has.na    : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nNow, we will plot the object “y”."
+  }
+]

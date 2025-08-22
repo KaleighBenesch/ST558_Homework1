@@ -1,0 +1,49 @@
+---
+title: "Data Science Intro"
+format: html
+editor: visual
+---
+
+## Questions About Data Scientists
+
+### What do you think being a data scientist is about?
+
+I think that being a data scientist can mean several things. Chapter 1 of the *Practitioner's Guide to Data Science* broke this question down very well in my opinion. I think being a data scientist can mean one or more of the following:
+
+-   Engineering
+    -   Sometimes a data scientist might focus on the processes and functions that make working with data possible.
+-   Analysis
+    -   Other data scientists will focus on turning the raw data into useful information for another audience through exploratory analysis.
+-   Modeling
+    -   Finally, some data scientists focus on modeling data to make future predictions or find patterns in the data that are not immediately apparent.
+
+### What differences/similarities do you see between data scientists and statisticians?
+
+The biggest difference between a data scientist and a statistician, in my opinion, is that data scientists are tasked with making raw data usable while statisticians seem to begin their analysis and modeling with data that is already in a usable format. On the other hand, I think data scientists and statisticians are similar because they both have the goal of pulling meaningful insights out of their data.
+
+### How do you view yourself in relation to these two areas?
+
+When comparing data scientists and statisticians, I view myself more in the category of being a data scientist. Even though it is not everyone's favorite, I enjoying wrangling data to make it usable. It may take up a lot of time, but once it is cleaned, it feels very fulfilling to be able to successfully create summary statistics and visuals.
+
+## Iris and Petal Width (R Code)
+
+We will first create an object, "y", that represents the density of *Petal Width* in the Iris data set.
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+Then, we will determine the class, type, and structure of the object "y".
+
+```{r}
+class(y)
+typeof(y)
+str(y)
+```
+
+Now, we will plot the object "y".
+
+```{r}
+#| echo: FALSE
+plot(y, main = "Density of Petal Width", xlab = "Petal Width")
+```
